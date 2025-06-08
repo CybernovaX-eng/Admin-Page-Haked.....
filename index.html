@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hacked by ModhuSudhan Roy</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      font-family: 'Courier New', monospace;
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .hacker-img {
+      width: 300px;
+      height: auto;
+      margin-top: 40px;
+      border-radius: 15px;
+      animation: pulse 2s infinite;
+      box-shadow: 0 0 30px red;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    .typing-red {
+      font-size: 2em;
+      margin-top: 20px;
+      color: red;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid red;
+      width: 28ch;
+      margin: 0 auto;
+      animation: typing 3s steps(28), blink 0.7s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 28ch; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    .box {
+      width: 80%;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 20px;
+      border: 3px solid white;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 20px #111;
+    }
+
+    .typing-multicolor {
+      font-size: 1.3em;
+      font-weight: bold;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid white;
+      animation: typing2 4s steps(55), blink 0.7s step-end infinite;
+      background-image: linear-gradient(90deg, red, yellow, lime);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @keyframes typing2 {
+      from { width: 0; }
+      to { width: 55ch; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- সাউন্ড ইফেক্ট -->
+  <audio autoplay loop>
+    <source src="https://audio.jukehost.co.uk/40uixjOWi9RjGAhOxKzH5R1VQ9vGsxX9" type="audio/mpeg">
+  </audio>
+
+  <!-- বড় ছবি -->
+  <img src="https://i.ibb.co/KxK5JwQS/peakpx.jpg" alt="Hacker Photo" class="hacker-img">
+
+  <!-- টাইপিং টেক্সট -->
+  <h1 class="typing-red">Hacked by ModhuSudhan Roy</h1>
+
+  <!-- নিচের বক্স -->
+  <div class="box">
+    <div class="typing-multicolor">
+      I'm just a clown. I hacked this but I don't even know what I'm doing 😅
+    </div>
+  </div>
+
+</body>
+</html>
